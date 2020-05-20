@@ -51,13 +51,9 @@ a:hover {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
+  transition: transform 0.3s ease;
   margin-top: 60px;
   margin-bottom: 100px;
-}
-
-.welcome input:hover {
-  color: wheat;
-  font-size: 15px;
 }
 
 .services_we_provide {
@@ -550,7 +546,6 @@ textarea {
 }
 
 footer div {
-  border: 2px dashed red;
   background-color: #344b8e;
   height: 110px;
   text-align: center;
